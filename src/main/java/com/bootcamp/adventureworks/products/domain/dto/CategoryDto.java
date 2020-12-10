@@ -7,9 +7,8 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ProductDto {
-    private Integer productID;
+public class CategoryDto {
+    private Integer id;
     private String name;
-    private String color;
-    private Integer categoryId;
 }
+

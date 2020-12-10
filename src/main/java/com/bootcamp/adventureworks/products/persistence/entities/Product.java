@@ -20,4 +20,7 @@ public class Product {
 
     @Column(name = "Color")
     private String color;
+
+    @Column(name = "ProductCategoryID")
+    private Integer categoryId;
 }
